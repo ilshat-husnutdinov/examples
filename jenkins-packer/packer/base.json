@@ -14,7 +14,7 @@
 
       "image_name":   "debian-11-base-{{isotime | clean_resource_name}}",
       "image_family": "debian-11-base",
-      "image_description": "Yet another debian build 2",
+      "image_description": "NEW another debian build 2",
 
       "source_image_family": "debian-11",
       "disk_type":           "network-nvme",

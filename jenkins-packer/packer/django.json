@@ -14,7 +14,7 @@
 
       "image_name":        "debian-11-django-{{isotime | clean_resource_name}}",
       "image_family":      "debian-11-django",
-      "image_description": "My very custom Django build",
+      "image_description": "My NEW very custom Django build",
 
       "source_image_family":    "debian-11-base",
       "source_image_folder_id": "{{user `folder_id`}}",

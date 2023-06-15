@@ -14,7 +14,7 @@
 
       "image_name":        "debian-11-nginx-{{isotime | clean_resource_name}}",
       "image_family":      "debian-11-nginx",
-      "image_description": "My very custom nginx proxy",
+      "image_description": "My NEW very custom nginx proxy",
 
       "source_image_family":    "debian-11-base",
       "source_image_folder_id": "{{user `folder_id`}}",
