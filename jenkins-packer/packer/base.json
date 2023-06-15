@@ -32,8 +32,7 @@
         "sudo apt-get update -y",
         "sleep 10",
         "echo changed",
-	"export DEBIAN_FRONTEND=noninteractive",
-	"sudo apt-get install -y linux-image-amd64=5.14.9-2~bpo11+1 linux-image-5.14.0-0.bpo.2-amd64=5.14.9-2~bpo11+1"
+	"export DEBIAN_FRONTEND=noninteractive"
       ]
     }
   ]
