@@ -1,7 +1,6 @@
 pipeline {
     agent any
     environment {
-        YC_ACCOUNT_KEY_FILE = credentials('YC_ACCOUNT_KEY_FILE')
 
         PACKER_SH = '/opt/yandex-packer/packer build -color=false'
     }
